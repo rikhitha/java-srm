@@ -13,14 +13,7 @@ public T largest(){
 	}
 	return large;
 }
-public T smallest(){
-	T small = al.get(0);
-	for(int i=0; i < al.size(); i++){
-		if(al.get(i).toString().compareTo(small.toString()) < 0)
-			small = al.get(i);
-	}
-	return small;
-}
+
 public void display(){
 	System.out.println(al);
 }
