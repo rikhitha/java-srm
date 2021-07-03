@@ -2,9 +2,9 @@ package day11.comparator.java.com;
 
 import java.util.Stack;
 
-public class InfixToPostfix {
+public class IP {
     
-    public static boolean isOperator(char op)
+    public static boolean isOp(char op)
     {
         if(op == '+' || op == '-' || op == '*' || op == '/' || op =='%')
         return true;
@@ -36,7 +36,7 @@ public class InfixToPostfix {
          return true;
         return false;
     }
-    public static String convertInixToPostfix(String infix)
+    public static String cIP(String infix)
     {
         Stack<Character> stack = new Stack();
         
@@ -71,7 +71,7 @@ public class InfixToPostfix {
 	{
 		System.out.println("Infix:::"+"b*c+f/j");
 		
-		System.out.println("PostFix:::"+convertInixToPostfix("b*c+f/j"));
+		System.out.println("PostFix:::"+cIP("b*c+f/j"));
     }
 }
 
