@@ -27,7 +27,7 @@ public class Calculator implements ActionListener
     
     Calculator()
     {
-        f = new Frame("My calculator");
+        f = new Frame("calculator");
         f.setBackground(Color.cyan);
         p = new Panel();
         f.setLayout(new FlowLayout());
