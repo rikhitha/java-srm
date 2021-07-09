@@ -244,4 +244,4 @@ public class Jcompo extends JFrame implements ItemListener {
             l1.setText(c1.getSelectedItem() + " selected");
         }
     }
-}
+} 
