@@ -176,7 +176,7 @@ public class Jcompo extends JFrame implements ItemListener {
     static JComboBox c1;
  
     
-    public static void main(String[] args) throws Exception
+    public static void main(String[] args)
     {
     	new TabbedPaneEx();  
     	new JTableEx();
