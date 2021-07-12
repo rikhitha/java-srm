@@ -60,7 +60,7 @@ public class FindGroupSplit
 		Find f=new Find();
 		f.find();
 		Group g=new Group();
-		g.group();
+		
 
 	}
 
