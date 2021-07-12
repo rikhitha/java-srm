@@ -21,7 +21,7 @@ public class TcpServer extends Thread {
             
             System.out.println(in.readUTF());
             DataOutputStream out = new DataOutputStream(server.getOutputStream());
-            out.writeUTF("Thank you for connecting to " + server.getLocalSocketAddress()
+            out.writeutf("Thank you for connecting to " + server.getLocalSocketAddress()
                + "\nGoodbye!");
             server.close();
             
