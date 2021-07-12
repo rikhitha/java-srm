@@ -100,6 +100,6 @@ public class Email implements ActionListener
 	            return true;
 	        }
 	        return false;
-		  }
+		  } 
 
 }
